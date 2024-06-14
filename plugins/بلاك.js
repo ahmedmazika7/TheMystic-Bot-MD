@@ -1,5 +1,5 @@
 let handler = async (m, { command, text }) => m.reply(`
-*💫 اسآل بلاڪ و٘ عٓفـرتو٘ 💫*
+*💫 اسآل بلاڪ 💫*
   
 *السؤال:* ${text}
 *الاجابة:* ${['اه','ممكن','في الاغلب اه','ف الاغلب لا','لا','مستحيل'].getRandom()}
@@ -8,6 +8,6 @@ mentions: m.mentionedJid
 } : {})
 handler.help = ['pregunta <texto>?']
 handler.tags = ['kerang']
-handler.command = /^بلاك|عفرتو$/i
+handler.command = /^بلاك|بلاكى$/i
 export default handler
 
