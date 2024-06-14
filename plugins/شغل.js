@@ -65,9 +65,9 @@ var handler = async (m, { conn, command, text, usedPrefix }) => {
   });
 };
 
-handler.help = ['song'].map((v) => v + ' <query>');
+handler.help = ['هات'].map((v) => v + ' <query>');
 handler.tags = ['downloader'];
-handler.command = /^song$/i;
+handler.command = /^هات$/i;
 
 handler.exp = 0;
 handler.diamond = false;
